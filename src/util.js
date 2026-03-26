@@ -14,7 +14,7 @@ async function fetchImageList(amt) {
     }
     for (let imageProfile of result.data) {
       if (imageList.length >= amt) break;
-      let imageUrl = imageProfile.images.original.url;
+      let imageUrl = imageProfile.images["480w_still"].url;
       let title = imageProfile.title;
       let id = imageProfile.id;
       imageList.push({url: imageUrl, title, id});
