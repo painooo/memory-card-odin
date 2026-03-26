@@ -62,3 +62,10 @@
  * > p with highscore
  * > end div
  */
+/** index.css - classes
+ * scoreBoard
+ * > score
+ * > highscore
+ * cardList
+ * > imageCard
+ */
