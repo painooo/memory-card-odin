@@ -7,7 +7,7 @@ export default function CardList({setScore, score}) {
   const [clickedList, setClickedList] = useState([]);
   
   useEffect(() => {
-      fetchImageList(5).then(result => {
+      fetchImageList(15).then(result => {
         setImageList(result);
       });
   }, []);
